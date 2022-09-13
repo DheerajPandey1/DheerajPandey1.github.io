@@ -1,0 +1,106 @@
+body{
+    background-color: rgb(117, 160, 209);
+}
+
+#main{
+    display: flex;
+}
+
+        #main>div{
+border: 1px solid black;
+height: 300px;
+width: 400px;
+/* display :flex; */
+
+
+
+        }
+        .head{
+            text-align: center;
+        }
+        nav{
+            /* width: 95%; */
+            background-color: rgb(43, 43, 130);
+            height:40px;
+        }
+        ul{
+            display:flex;
+            justify-content: flex-end;
+            gap: 80px;
+        }
+        li{
+            list-style: none;
+        font-size: 25px;
+        color: azure;
+       margin-top: 6px;
+
+        }
+        .nintyfive{
+            width: 95%;
+        }
+
+        .no-space{
+            margin:3px;
+            color:black;
+            font-size: 50px;
+            font-weight: bolder;
+            margin-left: 15px;
+
+        }
+        .hello{
+            margin-top: 14%;
+            width:400px;
+            /* border: 1px solid black; */
+            /* background-color: white; */
+            border-radius: 6px;
+        }
+         
+        #two{
+            display: flex;
+            gap:400px;
+        }
+        .myimg{
+            /* border: 2px solid sienna; */
+            margin-top: 80px;
+            width:60%;
+            height: 500px;
+        }
+        .love{
+            margin: auto;
+            text-align: center;
+        }
+        .big{
+            display: flex;
+            margin-top:40px ;
+            
+        }  
+
+         .big>div{
+            /* display: flex; */
+            /* border:1px solid black; */
+            height:400px;
+            width: 300px;
+            margin: auto;
+            background-color:skyblue;
+            border-radius:20px;;
+
+        }
+      .logo{
+        height:100px;
+        width:100px;
+        margin: auto;
+        display: flex;
+        margin-top: 50%;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        border-radius: 40%;
+      }
+      .js{
+        text-align: center;
+        font-size: 23px;
+      }
+      .logodet{
+        text-align: center;
+      }
+        
